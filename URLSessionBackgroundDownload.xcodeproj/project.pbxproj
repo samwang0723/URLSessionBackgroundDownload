@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1A603F1A07687F000DB65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A603E1A07687F000DB65A /* AppDelegate.swift */; };
+		BF1A60411A07687F000DB65A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A60401A07687F000DB65A /* ViewController.swift */; };
+		BF1A60441A07687F000DB65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1A60421A07687F000DB65A /* Main.storyboard */; };
+		BF1A60461A07687F000DB65A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1A60451A07687F000DB65A /* Images.xcassets */; };
+		BF1A60491A07687F000DB65A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1A60471A07687F000DB65A /* LaunchScreen.xib */; };
+		BF9F81B91A086818000BBC47 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F81B81A086818000BBC47 /* Data.swift */; };
+		BF9F81BB1A0869C4000BBC47 /* DownloadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F81BA1A0869C4000BBC47 /* DownloadSessionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF1A60391A07687F000DB65A /* URLSessionBackgroundDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSessionBackgroundDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1A603D1A07687F000DB65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1A603E1A07687F000DB65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF1A60401A07687F000DB65A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF1A60431A07687F000DB65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF1A60451A07687F000DB65A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF1A60481A07687F000DB65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF9F81B81A086818000BBC47 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BF9F81BA1A0869C4000BBC47 /* DownloadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadSessionDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1A60361A07687E000DB65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1A60301A07687E000DB65A = {
+			isa = PBXGroup;
+			children = (
+				BF1A603B1A07687F000DB65A /* URLSessionBackgroundDownload */,
+				BF1A603A1A07687F000DB65A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1A603A1A07687F000DB65A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A60391A07687F000DB65A /* URLSessionBackgroundDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1A603B1A07687F000DB65A /* URLSessionBackgroundDownload */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F81B81A086818000BBC47 /* Data.swift */,
+				BF9F81BA1A0869C4000BBC47 /* DownloadSessionDelegate.swift */,
+				BF1A60401A07687F000DB65A /* ViewController.swift */,
+				BF1A603E1A07687F000DB65A /* AppDelegate.swift */,
+				BF1A60421A07687F000DB65A /* Main.storyboard */,
+				BF1A60451A07687F000DB65A /* Images.xcassets */,
+				BF1A60471A07687F000DB65A /* LaunchScreen.xib */,
+				BF1A603C1A07687F000DB65A /* Supporting Files */,
+			);
+			path = URLSessionBackgroundDownload;
+			sourceTree = "<group>";
+		};
+		BF1A603C1A07687F000DB65A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A603D1A07687F000DB65A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1A60381A07687E000DB65A /* URLSessionBackgroundDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1A60581A07687F000DB65A /* Build configuration list for PBXNativeTarget "URLSessionBackgroundDownload" */;
+			buildPhases = (
+				BF1A60351A07687E000DB65A /* Sources */,
+				BF1A60361A07687E000DB65A /* Frameworks */,
+				BF1A60371A07687E000DB65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLSessionBackgroundDownload;
+			productName = URLSessionBackgroundDownload;
+			productReference = BF1A60391A07687F000DB65A /* URLSessionBackgroundDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1A60311A07687E000DB65A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sam Wang";
+				TargetAttributes = {
+					BF1A60381A07687E000DB65A = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YT44U534PD;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BF1A60341A07687E000DB65A /* Build configuration list for PBXProject "URLSessionBackgroundDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1A60301A07687E000DB65A;
+			productRefGroup = BF1A603A1A07687F000DB65A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1A60381A07687E000DB65A /* URLSessionBackgroundDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1A60371A07687E000DB65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1A60441A07687F000DB65A /* Main.storyboard in Resources */,
+				BF1A60491A07687F000DB65A /* LaunchScreen.xib in Resources */,
+				BF1A60461A07687F000DB65A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1A60351A07687E000DB65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1A60411A07687F000DB65A /* ViewController.swift in Sources */,
+				BF9F81B91A086818000BBC47 /* Data.swift in Sources */,
+				BF1A603F1A07687F000DB65A /* AppDelegate.swift in Sources */,
+				BF9F81BB1A0869C4000BBC47 /* DownloadSessionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF1A60421A07687F000DB65A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1A60431A07687F000DB65A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1A60471A07687F000DB65A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1A60481A07687F000DB65A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1A60561A07687F000DB65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Wang (YU48FCX28Z)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7b90a044-53cf-4a60-a834-c5433fce8ede";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1A60571A07687F000DB65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Wang (YU48FCX28Z)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7b90a044-53cf-4a60-a834-c5433fce8ede";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1A60591A07687F000DB65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Wang (YU48FCX28Z)";
+				INFOPLIST_FILE = URLSessionBackgroundDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b90a044-53cf-4a60-a834-c5433fce8ede";
+			};
+			name = Debug;
+		};
+		BF1A605A1A07687F000DB65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Wang (YU48FCX28Z)";
+				INFOPLIST_FILE = URLSessionBackgroundDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b90a044-53cf-4a60-a834-c5433fce8ede";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1A60341A07687E000DB65A /* Build configuration list for PBXProject "URLSessionBackgroundDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1A60561A07687F000DB65A /* Debug */,
+				BF1A60571A07687F000DB65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1A60581A07687F000DB65A /* Build configuration list for PBXNativeTarget "URLSessionBackgroundDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1A60591A07687F000DB65A /* Debug */,
+				BF1A605A1A07687F000DB65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1A60311A07687E000DB65A /* Project object */;
+}
